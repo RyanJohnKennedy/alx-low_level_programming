@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - Entry point
- *
- * Description: prints the size of various types on the computer it is complied and run on
+ * main - print the size of various types
  *
  * Return: Always 0 (Seccess)
  *
