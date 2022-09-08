@@ -3,6 +3,8 @@
 /*
  * main - print the size of various types
  *
+ * Description: prints the size of the various types
+ *
  * Return: Always 0 (Seccess)
  *
  */
