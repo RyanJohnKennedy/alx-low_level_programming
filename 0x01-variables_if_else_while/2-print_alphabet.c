@@ -14,10 +14,10 @@ int main(void)
 
 	while (i < 123)
 	{
-		putcher(i);
+		putchar(i);
 		i++;
 	}
-	putcher(10);
+	putchar(10);
 
 	return (0);
 }
