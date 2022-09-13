@@ -8,13 +8,15 @@
 
 void times_table(void)
 {
-	int row, column, product;
+	int row, column, product, ten, one;
 
 	for (row = 0; row <= 9; row++)
 	{
 		for (column = 0; column <= 9; column++)
 		{
 			product = row * column;
+			ten = product / 10;
+			one = product % 10;
 
 			if (column == 0)
 			{
@@ -25,13 +27,14 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(product + '0');
+				_putchar(one + '0');
 			}
 			else
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar(product + '0');
+				_putchar(ten + '0');
+				_putchar(one + '0');
 			}
 		}
 		_putchar('\n');
