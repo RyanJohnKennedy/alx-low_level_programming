@@ -12,7 +12,7 @@ void jack_bauer(void)
 
 	hours_max = 58;
 	hours_ten = '0';
-	while (hours_ten == '2')
+	while (hours_ten < '3')
 	{
 		if (hours_ten == '2')
 		{
