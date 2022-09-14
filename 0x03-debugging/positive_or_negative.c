@@ -3,7 +3,8 @@
 #include <time.h>
 
 /**
- * main - determine if number is positive or negetive
+ * positive_or_negative - determine if number is positive or negetive
+ * @n: Integer
  *
  * Description: Assign a random number to the variable each time
  *
