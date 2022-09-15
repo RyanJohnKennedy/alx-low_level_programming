@@ -32,6 +32,6 @@ void more_numbers(void)
 		_putchar('\n');
 		n = '0';
 		repeat = 0;
-		limit = '9'; 
+		limit = '9';
 	}
 }
