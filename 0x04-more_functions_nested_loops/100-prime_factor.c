@@ -20,7 +20,7 @@ int main(void)
 			d++;
 	}
 
-	printf("%d\n", i);
+	printf("%li\n", i);
 
 	return (0);
 }
