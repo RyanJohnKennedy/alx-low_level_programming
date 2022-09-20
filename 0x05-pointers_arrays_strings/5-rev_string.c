@@ -8,18 +8,21 @@
 
 void rev_string(char *s)
 {
-	char *temp = s;
-	int index1 = 0;
-	int index2 = 0;
+	int index, max, half;
+	char first, last;
 
-	while (s[index1] != '\0')
-		index1++;
-	index1--;
-	index2 = index1;
-	while (index1 >= 0)
+	index = 0;
+	while (s[index] != '\0')
+		index++;
+
+	max = i - 1;
+	half = max / 2;
+	while (half >= 0)
 	{
-		s[index2] = temp[index1];
-		index1--;
-		index2++;
+		first = s[max - half];
+		last = s[half];
+		s[half] = first;
+		s[max - half] = last;
+		half--;
 	}
 }
