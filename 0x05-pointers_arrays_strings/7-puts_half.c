@@ -19,7 +19,7 @@ void puts_half(char *str)
 	else
 		half = (index - 1) / 2;
 
-	max = index - 1;
+	max = index;
 	index = half;
 
 	while (index <= max)
