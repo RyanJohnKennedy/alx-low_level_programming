@@ -1,4 +1,4 @@
-#include "mina.h"
+#include "main.h"
 
 /**
  * puts_half - prints half of string
