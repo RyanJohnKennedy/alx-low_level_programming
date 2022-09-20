@@ -15,9 +15,13 @@ void puts_half(char *str)
 		index++;
 
 	max = index;
-	index = max / 2;
 
-	while (index <= max - 1)
+	if (max % 2 == 0)
+		index = max / 2;
+	else
+		index = (max - 1) / 2;
+
+	while (index <= max)
 	{
 		_putchar(str[index]);
 		index++;
