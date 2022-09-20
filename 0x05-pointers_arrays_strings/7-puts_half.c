@@ -9,19 +9,16 @@
 void puts_half(char *str)
 {
 	int index = 0;
-	int max;
 
 	while (str[index] != '\0')
 		index++;
 
-	max = index;
-
 	if (index % 2 == 0)
-		index = max / 2;
+		index = index / 2;
 	else
-		index = (max - 1) / 2;
+		index = (max + 1) / 2;
 
-	while (index <= max)
+	while (str[index] != '\0')
 	{
 		_putchar(str[index]);
 		index++;
