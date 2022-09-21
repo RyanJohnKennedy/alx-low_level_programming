@@ -32,7 +32,7 @@ char *cap_string(char *a)
 		{
 			a[index] -= 32;
 		}
-		index++
+		index++;
 	}
 
 	return (a);
