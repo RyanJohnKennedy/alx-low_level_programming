@@ -10,9 +10,8 @@ char *cap_string(char *a)
 {
 	int index = 0;
 
-	while (a[index])
+	while (a[++index])
 	{
-		index++;
 
 		while (!(a[index] >= 'a' && a[index] <= 'z'))
 			index++;
