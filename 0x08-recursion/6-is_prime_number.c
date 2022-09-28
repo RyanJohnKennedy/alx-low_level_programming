@@ -28,5 +28,5 @@ int checkPrime(int n, int i)
 		return (1);
 	else if (n % i == 0)
 		return (0);
-	return (checkprime(n, i - 1));
+	return (checkPrime(n, i - 1));
 }
